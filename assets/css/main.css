@@ -1349,3 +1349,13 @@ input, select, textarea {
 				}
 
 		}
+
+
+		#footer .copyright {
+    font-size: 0.8em;
+    line-height: 1.6em; /* Sorgt für besseren Zeilenabstand bei kleinerer Schrift */
+}
+
+#footer .copyright a {
+    font-size: 1em; /* Die Links erben die Größe des Elternelements */
+}
